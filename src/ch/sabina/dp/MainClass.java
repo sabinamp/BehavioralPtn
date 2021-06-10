@@ -8,6 +8,7 @@ import ch.sabina.dp.state.TestOrder;
 import ch.sabina.dp.state.TestRobot;
 import ch.sabina.dp.strategy.TestStrategy;
 import ch.sabina.dp.template.TestTemplate;
+import ch.sabina.dp.visitor.VisitorDemo;
 
 public class MainClass {
 	public static void main(String[] args) {
@@ -18,6 +19,7 @@ public class MainClass {
 		//new TestOrder().testOrder();
 		//new TestTemplate().testTemplate();
 		//new TestInterpreter().testInterpreter();
-		TestIterator.testIterator();
+		//TestIterator.testIterator();
+		new VisitorDemo().testVisitorDemo();
 	}
 }
