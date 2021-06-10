@@ -4,6 +4,7 @@ import ch.sabina.dp.chainofresponsibility.TestChainofResponsibility;
 import ch.sabina.dp.command.TestCommand;
 import ch.sabina.dp.interpreter.nb.TestInterpreter;
 import ch.sabina.dp.iterator.TestIterator;
+import ch.sabina.dp.memento.TestMemento;
 import ch.sabina.dp.state.TestOrder;
 import ch.sabina.dp.state.TestRobot;
 import ch.sabina.dp.strategy.TestStrategy;
@@ -21,5 +22,6 @@ public class MainClass {
 		//new TestInterpreter().testInterpreter();
 		//TestIterator.testIterator();
 		new VisitorDemo().testVisitorDemo();
+		new TestMemento().testMemento();
 	}
 }
