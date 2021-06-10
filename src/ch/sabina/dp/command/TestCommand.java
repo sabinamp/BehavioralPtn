@@ -1,5 +1,6 @@
 package ch.sabina.dp.command;
 
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -17,7 +18,7 @@ public class TestCommand {
 			smsJob.setSms(new Sms());		
 			fileIOJob.setFileIO(new FileIO());
 			
-			executorService.submit(new Runnable() {
+			executorService.submit( new Runnable() {
 				
 				@Override
 				public void run() {
@@ -32,6 +33,7 @@ public class TestCommand {
 								smsJob.execute();								
 							}
 						});
+			
 			executorService.submit(new Runnable() {
 				
 				@Override
