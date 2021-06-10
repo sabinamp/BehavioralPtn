@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CareTaker {
-	private final Map<String, Memento>savepointStorage = new HashMap<String, Memento>();
+	private final Map<String, Memento> savepointStorage = new HashMap<String, Memento>();
 	
 	public void saveMemento(Memento memento,String savepointName){
 			System.out.println("Saving state..."+savepointName);
