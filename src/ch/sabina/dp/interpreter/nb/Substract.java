@@ -1,4 +1,4 @@
-package ch.sabina.dp.interpreter;
+package ch.sabina.dp.interpreter.nb;
 
 public class Substract implements Expression {
 	private final Expression leftExpr;

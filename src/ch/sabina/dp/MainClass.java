@@ -2,7 +2,7 @@ package ch.sabina.dp;
 
 import ch.sabina.dp.chainofresponsibility.TestChainofResponsibility;
 import ch.sabina.dp.command.TestCommand;
-import ch.sabina.dp.interpreter.TestInterpreter;
+import ch.sabina.dp.interpreter.nb.TestInterpreter;
 import ch.sabina.dp.state.TestOrder;
 import ch.sabina.dp.state.TestRobot;
 import ch.sabina.dp.strategy.TestStrategy;

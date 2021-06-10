@@ -1,4 +1,4 @@
-package ch.sabina.dp.interpreter;
+package ch.sabina.dp.interpreter.nb;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package ch.sabina.dp.interpreter;
+package ch.sabina.dp.interpreter.nb;
 
 //maintains instance variables of type AbstractExpression for each of the symbols R1 through Rn.
 // Implements an Interpret operation for non terminal symbols in the grammar. 
