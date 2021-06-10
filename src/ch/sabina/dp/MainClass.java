@@ -3,6 +3,7 @@ package ch.sabina.dp;
 import ch.sabina.dp.chainofresponsibility.TestChainofResponsibility;
 import ch.sabina.dp.command.TestCommand;
 import ch.sabina.dp.interpreter.nb.TestInterpreter;
+import ch.sabina.dp.iterator.TestIterator;
 import ch.sabina.dp.state.TestOrder;
 import ch.sabina.dp.state.TestRobot;
 import ch.sabina.dp.strategy.TestStrategy;
@@ -16,6 +17,7 @@ public class MainClass {
 		//new TestRobot().testRobot();
 		//new TestOrder().testOrder();
 		//new TestTemplate().testTemplate();
-		new TestInterpreter().testInterpreter();
+		//new TestInterpreter().testInterpreter();
+		TestIterator.testIterator();
 	}
 }
