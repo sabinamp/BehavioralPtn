@@ -2,6 +2,7 @@ package ch.sabina.dp;
 
 import ch.sabina.dp.chainofresponsibility.TestChainofResponsibility;
 import ch.sabina.dp.command.TestCommand;
+import ch.sabina.dp.state.TestOrder;
 import ch.sabina.dp.state.TestRobot;
 import ch.sabina.dp.strategy.TestStrategy;
 
@@ -11,5 +12,6 @@ public class MainClass {
 		//new TestChainofResponsibility().chain();
 		//new TestStrategy().testStrategy();
 		new TestRobot().testRobot();
+		new TestOrder().testOrder();
 	}
 }
