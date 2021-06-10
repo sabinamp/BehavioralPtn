@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Context {
 	//table name & list of rows
@@ -24,7 +25,27 @@ public class Context {
 	    }
 	 
 	 List<String> search() {
-		return null;
+		 List<String> result = null;
+				/*
+				 * tables.entrySet() .stream() .filter(entry ->
+				 * entry.getKey().equalsIgnoreCase(table)) .flatMap(entry ->
+				 * Stream.of(entry.getValue())) .flatMap(Collection::stream) .map(Row::toString)
+				 * .flatMap(columnMapper) .filter(whereFilter) .collect(Collectors.toList());
+				 */
+		          
+		          //clear();
+
+	        return result;
 		 
 	 }
+
+	public void setFilter(Predicate<String> filter) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setTable(String table2) {
+		// TODO Auto-generated method stub
+		
+	}
 }
