@@ -6,8 +6,7 @@ public abstract class ConnectionTemplateMethod {
 		setDBDriver();
 		setCredentials();
 		connect();
-		prepareStatement();
-		setData();
+		prepareStatement();		
 		insert();
 		close();
 		destroy();
@@ -22,7 +21,7 @@ public abstract class ConnectionTemplateMethod {
 	public void prepareStatement() {
 		System.out.println("Preparing insert statement...");
 	}
-	public abstract void setData();
+	
 	
 	public void insert() {
 		System.out.println("Inserting data...");
