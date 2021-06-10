@@ -30,9 +30,13 @@ public class TestStrategy {
 				System.out.println("[TextFormatter X]: "+txt);
 			}
 		};
+		Strategy formatter4 = (txt)->{
+			System.out.println("[TextFormatter 4]: "+txt);
+			};
 		
 		TextEditor2 ed2= new TextEditor2(formatter3);
 		ed2.publishText("txt to format with inner interface");
+		new TextEditor2(formatter4).publishText("text formatted with formatter4");
 		
 	}
 	
